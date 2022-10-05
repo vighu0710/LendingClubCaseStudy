@@ -18,10 +18,14 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Upper limit for DTI & Interest rate in each income category/funded amount by investor can be determined,more than that would be considered risky
+- Subgrades D2,E1,F1,F2,G1,G2 have more ratio of defaulters, the risk is higher for these subgrades
+- Borrowers with annual income less than 80K who request loan for small business have more 30% defaulters, hence considered to be risky
+- Borrowers with 60 months Term tends to default more especially with Funded amount by investor in range of 0-4K and 16K-20K
+- Borrowers with Education loan tends to default more with Funded amount by investor in 12K-16K and 20K-25K range
+- Borrowers with Vacation loan, Small Business and Car loan tends to default more with Funded amount by investor in 12K-25K rang
+- Borrower with House Ownership as ‘Others’, 'Own’ & ‘Rent’ tend to default more for Funded amount by investor in 16K-25K range
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -38,8 +42,6 @@
 ## Acknowledgements
 Give credit here.
 - This project is done as part of Execution PG on ML & AI from upgrade with partnership with IIITB
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
