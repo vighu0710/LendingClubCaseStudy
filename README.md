@@ -40,7 +40,6 @@
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
 - This project is done as part of Execution PG on ML & AI from upgrade with partnership with IIITB
 
 
