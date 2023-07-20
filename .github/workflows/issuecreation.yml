@@ -10,7 +10,7 @@
 name: Weekly Team Sync
 on:
   schedule:
-    - cron: 03 13 * * 4
+    - cron: 05 13 * * 4
 
 jobs:
   create_issue:
@@ -20,10 +20,11 @@ jobs:
       issues: write
     steps:
       - name: Create team sync issue
-        uses: rijadge/generate-issues@v3.0
+        uses: imjohnbo/issue-bot@3d96848fb5e9a4a473bb81ae62b4b4866a56e93a
         with:
+          #assignees: "monalisa, doctocat, hubot"
+          labels: "weekly sync"
           title: "Team sync"
-          repositories: ["vighu0710/LendingClubCaseStudy"]
           body: |
             ### Agenda
 
@@ -36,4 +37,7 @@ jobs:
             Add things to discuss below
 
             - [Work this week](https://github.com/orgs/github/projects/3)
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          pinned: false
+          close-previous: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
